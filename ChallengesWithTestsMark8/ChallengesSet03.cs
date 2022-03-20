@@ -88,6 +88,7 @@ namespace ChallengesWithTestsMark8
         {            
             List <int> store = new List <int>();
             int[] arr = Enumerable.Range(1, 100).ToArray();
+
             for (int i = 0; i < arr.Length; i++) 
             {
                 if ( i % 2 == 0) 
